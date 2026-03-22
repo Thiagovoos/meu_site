@@ -1,0 +1,77 @@
+body {
+  background: linear-gradient(to right, #1e1e2f, #2c2c54);
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+
+
+.texto {
+    text-align: center;
+}
+
+.texto2 {
+    text-align:left ;
+}
+
+.github-icon {
+  cursor: pointer;
+    position: absolute; 
+  top: 10px;
+  right: 10px;
+  width: 60px;
+}
+
+.conteiner {
+    display: flex;
+    align-items: center;
+
+    
+}
+
+h2 {
+    font-size: 30px;
+     
+}
+
+.paragrafo {
+    font-size: 20px;
+  
+    
+}
+
+.projetos {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: row; /* deixa um embaixo do outro */
+  align-items: center;
+  gap: 30px; /* espaço entre os projetos */
+  margin-top: 50px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  width: 400px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #ccc;
+  line-height: 1.5;
+}
